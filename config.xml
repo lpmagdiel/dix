@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="com.magmadevstudio.dix" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
+    <name>DIX</name>
+    <description>
+        dix is a super lightweight, multi-platform chat client for people who want to break away from the big platforms and use something simple and functional.
+    </description>
+    <author email="lopmag.lopez@gmail.com" href="http://magmadevstudio.com/">
+        MAGMA DEV STUDIO
+    </author>
+    <content src="index.html" />
+    <access origin="*" />
+    <engine name="android" spec="~7.0.0" />
+</widget>

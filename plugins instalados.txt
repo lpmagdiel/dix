@@ -1,0 +1,7 @@
+----- cordova plugins -----
+
+cordova plugin add cordova-plugin-network-information
+cordova plugin add cordova-plugin-camera
+cordova plugin add cordova-plugin-vibration
+cordova plugin add cordova-plugin-file-transfer
+cordova plugin add cordova-plugin-geolocation
