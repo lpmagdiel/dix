@@ -5,7 +5,7 @@
 }
 *{
     padding: 0;
-    margin: 5px;
+    margin: 0px;
     font-family: "Montserrat";
     color: #333333;
 }
@@ -18,14 +18,16 @@
 .master-container{
     height: 100%;
     width: 200%;
+    overflow: hidden;
 }
 .container{
     height: 100%;
     width: 400%;
 }
 .page{
-    width: 100%;
+    width: 50%;
     height: 100%;
+    overflow: hidden;
 }
 
 
@@ -33,9 +35,21 @@
 .title-orange{
     color:#CC6600;
 }
+.title-white{
+    color:#ffffff;
+    font-size: 3em;
+}
+.title-blue{
+    color: #006699;
+}
+h2{
+    color: #666666;
+    text-align: center;
+    margin-bottom: 10px;
+}
 .btn{
     height: 40px;
-    padding: 2px 5px 2px 5px;
+    padding: 2px 10px 2px 10px;
     background-color: #ffffff;
     border: 1px solid #f0f0f0;
     border-radius: 20px;
@@ -44,12 +58,19 @@
 }
 .in{
     height: 35px;
-    padding: 2px 5px 2px 5px;
+    padding: 2px 10px 2px 10px;
     background-color: #ffffff;
     border: 1px solid #f0f0f0;
     border-radius: 20px;
     outline:0px;
+    text-align: center;
     display: inline-block;
+}
+.m5{
+    margin: 5px;
+}
+.m10{
+    margin: 10px;
 }
 .me{
     background-color: #f0f0f0;
@@ -74,10 +95,50 @@
     color: #333333;
     border-color: #f0f0f0;
 }
+.blue{
+    color: #003366;
+    border-color: #003366;
+}
 .icon{
     height: 32px;
     width: auto;
     display: inline-block;
     margin-bottom: -12px;
     opacity: 0.5;
+}
+
+/*  pantalla de inicio de sesion  */
+.ini{
+    background-color: #33CCCC;
+}
+nav,footer{
+    background-color: #33CCCC;
+    width: 100%;
+    min-height: 100px;
+    padding: 5px;
+}
+.declibe{
+    width: 120%;
+    height: 40px;
+    margin-left: -10%;
+    margin-top: -25px;
+    transform: rotate(-4deg);
+    background-color: #ffffff;
+    margin-bottom: 15px;
+}
+.rel{
+    position: relative;
+    width: 100%;
+    min-height: 80px;
+}
+footer{
+    min-height: 80px;
+    overflow: hidden;
+    position: absolute;
+}
+footer .declibe{
+    position: relative;
+}
+#btnNew{
+    position: absolute;
 }
